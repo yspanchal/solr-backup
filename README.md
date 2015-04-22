@@ -6,22 +6,22 @@ Solr backup and upload on aws s3 bucket
 
 * Setup Variables
   
-  sesese3solr_url = "" 		# solr url "http://localhost:8983/solr/"
+  sesese3solr_url = "" 		  # solr url "http://localhost:8983/solr/"
 
 
-  backup_dir = ""		# solr backup directory "/home/solr/backup"
+  backup_dir = ""		        # solr backup directory "/home/solr/backup"
   
   
-  s3_upload = False		# set to "True" if you want to upload to s3 bucket, default is "False"
+  s3_upload = False		      # set to "True" if you want to upload to s3 bucket, default is "False"
   
   
-  bucket_name = ""		# s3 bucket name to store backup files
+  bucket_name = ""		      # s3 bucket name to store backup files
   
   
-  AWS_ACCESS_KEY = ""		# aws access key
+  AWS_ACCESS_KEY = ""		    # aws access key
   
   
-  AWS_SECRET = ""		# aws secret key
+  AWS_SECRET = ""		        # aws secret key
   
  
 * Setup cron job
